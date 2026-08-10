@@ -1,0 +1,664 @@
+{
+  "documents": [
+    {
+      "adapter": "local-file",
+      "artifacts": {
+        "materialized_path": "okf/raw/cache/documents/ansto-radiation-capabilities/datalab_ANSTO_radiation_capabilities.md",
+        "normalized_path": "okf/raw/cache/outputs/e8fac433c748553095e0baf10716810be4a3ab9f35d3a433fcd4d51183d5b0c5/document.md",
+        "original_path": "okf/raw/cache/objects/6b16ec32db72415e48ae66c37046d8078824283e4904b8270e48240c7ba4b722/original.md"
+      },
+      "document_id": "ansto-radiation-capabilities",
+      "item_id": "ansto-radiation-capabilities",
+      "lifecycle": {
+        "last_successful_retrieval": "2026-08-10T07:16:54+00:00",
+        "refresh_policy": "automatic",
+        "state": "active"
+      },
+      "logical_path": "ansto-radiation-capabilities/datalab_ANSTO_radiation_capabilities.md",
+      "retrieval": {
+        "etag": null,
+        "immutable_url": null,
+        "last_modified": "2026-08-04T05:12:08+00:00",
+        "media_type": "text/markdown",
+        "requested_url": null,
+        "resolved_url": null,
+        "retrieved_at": "2026-08-10T07:16:54+00:00",
+        "revision": null,
+        "sha256": "6b16ec32db72415e48ae66c37046d8078824283e4904b8270e48240c7ba4b722",
+        "size": 21536,
+        "tracking_url": null,
+        "upstream_object_id": null
+      },
+      "source_path": "okf/raw/ansto-radiation-capabilities/datalab_ANSTO_radiation_capabilities.md",
+      "transformation": {
+        "output_sha256": "e8fac433c748553095e0baf10716810be4a3ab9f35d3a433fcd4d51183d5b0c5",
+        "pipeline_fingerprint": "fae08e83593c3e5eae46fd78991e003889569fb68fd7b6688d0d4f29f62e133d",
+        "steps": [
+          {
+            "name": "markdown-copy",
+            "version": 1
+          }
+        ]
+      }
+    },
+    {
+      "adapter": "local-file",
+      "artifacts": {
+        "materialized_path": "okf/raw/cache/documents/radiation_standards_uploads/ECSS-Q-ST-60-15C_2012.pdf.md",
+        "normalized_path": "okf/raw/cache/outputs/62675e6a617e612b7c78453bd01c04b4645b5d4ee5454915e4c2a205fb01b3c0/document.md",
+        "original_path": "okf/raw/cache/objects/17becf077f7343c477813f4f83d7e5edb20b61ede5df71b0b97409bd1cc80347/original.md"
+      },
+      "document_id": "ecss-2012",
+      "item_id": "ecss-2012",
+      "lifecycle": {
+        "last_successful_retrieval": "2026-08-10T07:16:54+00:00",
+        "refresh_policy": "automatic",
+        "state": "active"
+      },
+      "logical_path": "radiation_standards_uploads/ECSS-Q-ST-60-15C_2012.pdf.md",
+      "retrieval": {
+        "etag": null,
+        "immutable_url": null,
+        "last_modified": "2026-07-20T03:00:08+00:00",
+        "media_type": "text/markdown",
+        "requested_url": null,
+        "resolved_url": null,
+        "retrieved_at": "2026-08-10T07:16:54+00:00",
+        "revision": null,
+        "sha256": "17becf077f7343c477813f4f83d7e5edb20b61ede5df71b0b97409bd1cc80347",
+        "size": 56800,
+        "tracking_url": null,
+        "upstream_object_id": null
+      },
+      "source_path": "okf/raw/radiation_standards_uploads/ECSS-Q-ST-60-15C_2012.pdf.md",
+      "transformation": {
+        "output_sha256": "62675e6a617e612b7c78453bd01c04b4645b5d4ee5454915e4c2a205fb01b3c0",
+        "pipeline_fingerprint": "fae08e83593c3e5eae46fd78991e003889569fb68fd7b6688d0d4f29f62e133d",
+        "steps": [
+          {
+            "name": "markdown-copy",
+            "version": 1
+          }
+        ]
+      }
+    },
+    {
+      "adapter": "local-file",
+      "artifacts": {
+        "materialized_path": "okf/raw/cache/documents/radiation_standards_uploads/ECSS-Q-ST-60-15C-Rev1_2025.pdf.md",
+        "normalized_path": "okf/raw/cache/outputs/c52d144951b9b401dcd5b8cb587785acf5d877bc5729a06433ca106efc83523b/document.md",
+        "original_path": "okf/raw/cache/objects/3ca363c3bfb936d602953f4cc077c6ee07bf6130b0fae6dc45c487836169e4ba/original.md"
+      },
+      "document_id": "ecss-2025",
+      "item_id": "ecss-2025",
+      "lifecycle": {
+        "last_successful_retrieval": "2026-08-10T07:16:54+00:00",
+        "refresh_policy": "automatic",
+        "state": "active"
+      },
+      "logical_path": "radiation_standards_uploads/ECSS-Q-ST-60-15C-Rev1_2025.pdf.md",
+      "retrieval": {
+        "etag": null,
+        "immutable_url": null,
+        "last_modified": "2026-07-20T03:00:08+00:00",
+        "media_type": "text/markdown",
+        "requested_url": null,
+        "resolved_url": null,
+        "retrieved_at": "2026-08-10T07:16:54+00:00",
+        "revision": null,
+        "sha256": "3ca363c3bfb936d602953f4cc077c6ee07bf6130b0fae6dc45c487836169e4ba",
+        "size": 95059,
+        "tracking_url": null,
+        "upstream_object_id": null
+      },
+      "source_path": "okf/raw/radiation_standards_uploads/ECSS-Q-ST-60-15C-Rev1_2025.pdf.md",
+      "transformation": {
+        "output_sha256": "c52d144951b9b401dcd5b8cb587785acf5d877bc5729a06433ca106efc83523b",
+        "pipeline_fingerprint": "fae08e83593c3e5eae46fd78991e003889569fb68fd7b6688d0d4f29f62e133d",
+        "steps": [
+          {
+            "name": "markdown-copy",
+            "version": 1
+          }
+        ]
+      }
+    },
+    {
+      "adapter": "local-file",
+      "artifacts": {
+        "materialized_path": "okf/raw/cache/documents/hiaf-sibl-brochure/datalab_HIAF-SIBL-BROCHURE.pdf.md",
+        "normalized_path": "okf/raw/cache/outputs/aae1632cd685e8db686236defb062069c8412261dc6849fc30c33653f5cee327/document.md",
+        "original_path": "okf/raw/cache/objects/c14e4448b698a29c8caa55a12dba81d884882e9e722889867448057235670908/original.md"
+      },
+      "document_id": "hiaf-sibl-brochure",
+      "item_id": "hiaf-sibl-brochure",
+      "lifecycle": {
+        "last_successful_retrieval": "2026-08-10T07:16:54+00:00",
+        "refresh_policy": "automatic",
+        "state": "active"
+      },
+      "logical_path": "hiaf-sibl-brochure/datalab_HIAF-SIBL-BROCHURE.pdf.md",
+      "retrieval": {
+        "etag": null,
+        "immutable_url": null,
+        "last_modified": "2026-08-04T00:56:06+00:00",
+        "media_type": "text/markdown",
+        "requested_url": null,
+        "resolved_url": null,
+        "retrieved_at": "2026-08-10T07:16:54+00:00",
+        "revision": null,
+        "sha256": "c14e4448b698a29c8caa55a12dba81d884882e9e722889867448057235670908",
+        "size": 14634,
+        "tracking_url": null,
+        "upstream_object_id": null
+      },
+      "source_path": "okf/raw/hiaf-sibl-brochure/datalab_HIAF-SIBL-BROCHURE.pdf.md",
+      "transformation": {
+        "output_sha256": "aae1632cd685e8db686236defb062069c8412261dc6849fc30c33653f5cee327",
+        "pipeline_fingerprint": "fae08e83593c3e5eae46fd78991e003889569fb68fd7b6688d0d4f29f62e133d",
+        "steps": [
+          {
+            "name": "markdown-copy",
+            "version": 1
+          }
+        ]
+      }
+    },
+    {
+      "adapter": "local-file",
+      "artifacts": {
+        "materialized_path": "okf/raw/cache/documents/radiation_standards_uploads/JSC_08080_2_RevB_DCN001.pdf.md",
+        "normalized_path": "okf/raw/cache/outputs/9f87998b2f269cd609d0c98e5d0112f501065fc416d5ead0e557600a84249fac/document.md",
+        "original_path": "okf/raw/cache/objects/1b2df21b3c124a1996320a375e3a32d25b3b7945c0f2dcf26293633a152e9983/original.md"
+      },
+      "document_id": "jsc-08080-2",
+      "item_id": "jsc-08080-2",
+      "lifecycle": {
+        "last_successful_retrieval": "2026-08-10T07:16:54+00:00",
+        "refresh_policy": "automatic",
+        "state": "active"
+      },
+      "logical_path": "radiation_standards_uploads/JSC_08080_2_RevB_DCN001.pdf.md",
+      "retrieval": {
+        "etag": null,
+        "immutable_url": null,
+        "last_modified": "2026-07-20T03:00:08+00:00",
+        "media_type": "text/markdown",
+        "requested_url": null,
+        "resolved_url": null,
+        "retrieved_at": "2026-08-10T07:16:54+00:00",
+        "revision": null,
+        "sha256": "1b2df21b3c124a1996320a375e3a32d25b3b7945c0f2dcf26293633a152e9983",
+        "size": 320523,
+        "tracking_url": null,
+        "upstream_object_id": null
+      },
+      "source_path": "okf/raw/radiation_standards_uploads/JSC_08080_2_RevB_DCN001.pdf.md",
+      "transformation": {
+        "output_sha256": "9f87998b2f269cd609d0c98e5d0112f501065fc416d5ead0e557600a84249fac",
+        "pipeline_fingerprint": "fae08e83593c3e5eae46fd78991e003889569fb68fd7b6688d0d4f29f62e133d",
+        "steps": [
+          {
+            "name": "markdown-copy",
+            "version": 1
+          }
+        ]
+      }
+    },
+    {
+      "adapter": "local-file",
+      "artifacts": {
+        "materialized_path": "okf/raw/cache/documents/radiation_standards_uploads/JSC-67551_Basic_Final_WpublicReleaseCover.pdf.md",
+        "normalized_path": "okf/raw/cache/outputs/243320a288fc67b427b1f720bd776164b42948b3541439cfe40bbf2fb7848f7b/document.md",
+        "original_path": "okf/raw/cache/objects/a2bbbf51b5b749d374d2a3738d149202055517973ea7f899a41813e07411484f/original.md"
+      },
+      "document_id": "jsc-67551-aires",
+      "item_id": "jsc-67551-aires",
+      "lifecycle": {
+        "last_successful_retrieval": "2026-08-10T07:16:54+00:00",
+        "refresh_policy": "automatic",
+        "state": "active"
+      },
+      "logical_path": "radiation_standards_uploads/JSC-67551_Basic_Final_WpublicReleaseCover.pdf.md",
+      "retrieval": {
+        "etag": null,
+        "immutable_url": null,
+        "last_modified": "2026-07-20T03:00:08+00:00",
+        "media_type": "text/markdown",
+        "requested_url": null,
+        "resolved_url": null,
+        "retrieved_at": "2026-08-10T07:16:54+00:00",
+        "revision": null,
+        "sha256": "a2bbbf51b5b749d374d2a3738d149202055517973ea7f899a41813e07411484f",
+        "size": 233118,
+        "tracking_url": null,
+        "upstream_object_id": null
+      },
+      "source_path": "okf/raw/radiation_standards_uploads/JSC-67551_Basic_Final_WpublicReleaseCover.pdf.md",
+      "transformation": {
+        "output_sha256": "243320a288fc67b427b1f720bd776164b42948b3541439cfe40bbf2fb7848f7b",
+        "pipeline_fingerprint": "fae08e83593c3e5eae46fd78991e003889569fb68fd7b6688d0d4f29f62e133d",
+        "steps": [
+          {
+            "name": "markdown-copy",
+            "version": 1
+          }
+        ]
+      }
+    },
+    {
+      "adapter": "local-file",
+      "artifacts": {
+        "materialized_path": "okf/raw/cache/documents/radiation_standards_uploads/MIL-STD-883-1_2024.pdf.md",
+        "normalized_path": "okf/raw/cache/outputs/9693e4bbde447ea25f42b5bafa900cd41dd7bff95c672e6abe42cd810a3104c4/document.md",
+        "original_path": "okf/raw/cache/objects/b12fecad3e6bca2a90b26427f759cf650de9affac7533b659de5b8c03d2843a8/original.md"
+      },
+      "document_id": "mil-std-883-1",
+      "item_id": "mil-std-883-1",
+      "lifecycle": {
+        "last_successful_retrieval": "2026-08-10T07:16:54+00:00",
+        "refresh_policy": "automatic",
+        "state": "active"
+      },
+      "logical_path": "radiation_standards_uploads/MIL-STD-883-1_2024.pdf.md",
+      "retrieval": {
+        "etag": null,
+        "immutable_url": null,
+        "last_modified": "2026-07-20T03:00:08+00:00",
+        "media_type": "text/markdown",
+        "requested_url": null,
+        "resolved_url": null,
+        "retrieved_at": "2026-08-10T07:16:54+00:00",
+        "revision": null,
+        "sha256": "b12fecad3e6bca2a90b26427f759cf650de9affac7533b659de5b8c03d2843a8",
+        "size": 565740,
+        "tracking_url": null,
+        "upstream_object_id": null
+      },
+      "source_path": "okf/raw/radiation_standards_uploads/MIL-STD-883-1_2024.pdf.md",
+      "transformation": {
+        "output_sha256": "9693e4bbde447ea25f42b5bafa900cd41dd7bff95c672e6abe42cd810a3104c4",
+        "pipeline_fingerprint": "fae08e83593c3e5eae46fd78991e003889569fb68fd7b6688d0d4f29f62e133d",
+        "steps": [
+          {
+            "name": "markdown-copy",
+            "version": 1
+          }
+        ]
+      }
+    },
+    {
+      "adapter": "local-file",
+      "artifacts": {
+        "materialized_path": "okf/raw/cache/documents/radiation_standards_uploads/NASA_EEE_Parts_Selection_CLPS_2023.pdf.md",
+        "normalized_path": "okf/raw/cache/outputs/4e9b61d52bd3a09e8216f6baf267b271ed1913ab391edd25bc363c0196980151/document.md",
+        "original_path": "okf/raw/cache/objects/977724f7b4650fafabef0ea1c605ff0f3d2451268557357febcc96e11e9c46dc/original.md"
+      },
+      "document_id": "nasa-clps-2023",
+      "item_id": "nasa-clps-2023",
+      "lifecycle": {
+        "last_successful_retrieval": "2026-08-10T07:16:54+00:00",
+        "refresh_policy": "automatic",
+        "state": "active"
+      },
+      "logical_path": "radiation_standards_uploads/NASA_EEE_Parts_Selection_CLPS_2023.pdf.md",
+      "retrieval": {
+        "etag": null,
+        "immutable_url": null,
+        "last_modified": "2026-07-20T03:00:08+00:00",
+        "media_type": "text/markdown",
+        "requested_url": null,
+        "resolved_url": null,
+        "retrieved_at": "2026-08-10T07:16:54+00:00",
+        "revision": null,
+        "sha256": "977724f7b4650fafabef0ea1c605ff0f3d2451268557357febcc96e11e9c46dc",
+        "size": 56882,
+        "tracking_url": null,
+        "upstream_object_id": null
+      },
+      "source_path": "okf/raw/radiation_standards_uploads/NASA_EEE_Parts_Selection_CLPS_2023.pdf.md",
+      "transformation": {
+        "output_sha256": "4e9b61d52bd3a09e8216f6baf267b271ed1913ab391edd25bc363c0196980151",
+        "pipeline_fingerprint": "fae08e83593c3e5eae46fd78991e003889569fb68fd7b6688d0d4f29f62e133d",
+        "steps": [
+          {
+            "name": "markdown-copy",
+            "version": 1
+          }
+        ]
+      }
+    },
+    {
+      "adapter": "local-file",
+      "artifacts": {
+        "materialized_path": "okf/raw/cache/documents/radiation_standards_uploads/NASA_EEE-INST-002_2008.pdf.md",
+        "normalized_path": "okf/raw/cache/outputs/b6136ad802fe7461de31f8b80ed6348c8fabb1b70a673aa9f05eff079088cd51/document.md",
+        "original_path": "okf/raw/cache/objects/021b61cac5bea2083242574156bcce0ff89850ef919aef29bde758f68902b7df/original.md"
+      },
+      "document_id": "nasa-eee-inst-002",
+      "item_id": "nasa-eee-inst-002",
+      "lifecycle": {
+        "last_successful_retrieval": "2026-08-10T07:16:54+00:00",
+        "refresh_policy": "automatic",
+        "state": "active"
+      },
+      "logical_path": "radiation_standards_uploads/NASA_EEE-INST-002_2008.pdf.md",
+      "retrieval": {
+        "etag": null,
+        "immutable_url": null,
+        "last_modified": "2026-07-20T03:00:08+00:00",
+        "media_type": "text/markdown",
+        "requested_url": null,
+        "resolved_url": null,
+        "retrieved_at": "2026-08-10T07:16:54+00:00",
+        "revision": null,
+        "sha256": "021b61cac5bea2083242574156bcce0ff89850ef919aef29bde758f68902b7df",
+        "size": 1346461,
+        "tracking_url": null,
+        "upstream_object_id": null
+      },
+      "source_path": "okf/raw/radiation_standards_uploads/NASA_EEE-INST-002_2008.pdf.md",
+      "transformation": {
+        "output_sha256": "b6136ad802fe7461de31f8b80ed6348c8fabb1b70a673aa9f05eff079088cd51",
+        "pipeline_fingerprint": "fae08e83593c3e5eae46fd78991e003889569fb68fd7b6688d0d4f29f62e133d",
+        "steps": [
+          {
+            "name": "markdown-copy",
+            "version": 1
+          }
+        ]
+      }
+    },
+    {
+      "adapter": "local-file",
+      "artifacts": {
+        "materialized_path": "okf/raw/cache/documents/radiation_standards_uploads/NASA_EEE-INST-002_addendum.pdf.md",
+        "normalized_path": "okf/raw/cache/outputs/b6136ad802fe7461de31f8b80ed6348c8fabb1b70a673aa9f05eff079088cd51/document.md",
+        "original_path": "okf/raw/cache/objects/021b61cac5bea2083242574156bcce0ff89850ef919aef29bde758f68902b7df/original.md"
+      },
+      "document_id": "nasa-eee-inst-002-addendum",
+      "item_id": "nasa-eee-inst-002-addendum",
+      "lifecycle": {
+        "last_successful_retrieval": "2026-08-10T07:16:54+00:00",
+        "refresh_policy": "automatic",
+        "state": "active"
+      },
+      "logical_path": "radiation_standards_uploads/NASA_EEE-INST-002_addendum.pdf.md",
+      "retrieval": {
+        "etag": null,
+        "immutable_url": null,
+        "last_modified": "2026-07-20T03:00:08+00:00",
+        "media_type": "text/markdown",
+        "requested_url": null,
+        "resolved_url": null,
+        "retrieved_at": "2026-08-10T07:16:54+00:00",
+        "revision": null,
+        "sha256": "021b61cac5bea2083242574156bcce0ff89850ef919aef29bde758f68902b7df",
+        "size": 1346461,
+        "tracking_url": null,
+        "upstream_object_id": null
+      },
+      "source_path": "okf/raw/radiation_standards_uploads/NASA_EEE-INST-002_addendum.pdf.md",
+      "transformation": {
+        "output_sha256": "b6136ad802fe7461de31f8b80ed6348c8fabb1b70a673aa9f05eff079088cd51",
+        "pipeline_fingerprint": "fae08e83593c3e5eae46fd78991e003889569fb68fd7b6688d0d4f29f62e133d",
+        "steps": [
+          {
+            "name": "markdown-copy",
+            "version": 1
+          }
+        ]
+      }
+    },
+    {
+      "adapter": "local-file",
+      "artifacts": {
+        "materialized_path": "okf/raw/cache/documents/radiation_standards_uploads/NASA_NEPP_GSFC_Rad_Effects_Compendium_2021.pdf.md",
+        "normalized_path": "okf/raw/cache/outputs/e75976ea39a94af3b0378427e35e807f282935580bc37cf75f7050ae053275af/document.md",
+        "original_path": "okf/raw/cache/objects/a5e0be1df74c7971169ebba05e7799936f0e0724b677b0e85f072212b4664ce2/original.md"
+      },
+      "document_id": "nasa-nepp-compendium-2021",
+      "item_id": "nasa-nepp-compendium-2021",
+      "lifecycle": {
+        "last_successful_retrieval": "2026-08-10T07:16:54+00:00",
+        "refresh_policy": "automatic",
+        "state": "active"
+      },
+      "logical_path": "radiation_standards_uploads/NASA_NEPP_GSFC_Rad_Effects_Compendium_2021.pdf.md",
+      "retrieval": {
+        "etag": null,
+        "immutable_url": null,
+        "last_modified": "2026-07-20T03:00:08+00:00",
+        "media_type": "text/markdown",
+        "requested_url": null,
+        "resolved_url": null,
+        "retrieved_at": "2026-08-10T07:16:54+00:00",
+        "revision": null,
+        "sha256": "a5e0be1df74c7971169ebba05e7799936f0e0724b677b0e85f072212b4664ce2",
+        "size": 30546,
+        "tracking_url": null,
+        "upstream_object_id": null
+      },
+      "source_path": "okf/raw/radiation_standards_uploads/NASA_NEPP_GSFC_Rad_Effects_Compendium_2021.pdf.md",
+      "transformation": {
+        "output_sha256": "e75976ea39a94af3b0378427e35e807f282935580bc37cf75f7050ae053275af",
+        "pipeline_fingerprint": "fae08e83593c3e5eae46fd78991e003889569fb68fd7b6688d0d4f29f62e133d",
+        "steps": [
+          {
+            "name": "markdown-copy",
+            "version": 1
+          }
+        ]
+      }
+    },
+    {
+      "adapter": "local-file",
+      "artifacts": {
+        "materialized_path": "okf/raw/cache/documents/radiation_standards_uploads/NASA_NEPP_TM1019_Rewrite_Turflinger_2019.pdf.md",
+        "normalized_path": "okf/raw/cache/outputs/7465597c36bfcf1b849f40ca08c49560d1801301ac7526a7a7f87cc3534caec0/document.md",
+        "original_path": "okf/raw/cache/objects/c1c5df6a07c9b0516dade397867b00fbfe89be7e7a344a6bdc5173c451787b6f/original.md"
+      },
+      "document_id": "nasa-nepp-tm1019-rewrite",
+      "item_id": "nasa-nepp-tm1019-rewrite",
+      "lifecycle": {
+        "last_successful_retrieval": "2026-08-10T07:16:54+00:00",
+        "refresh_policy": "automatic",
+        "state": "active"
+      },
+      "logical_path": "radiation_standards_uploads/NASA_NEPP_TM1019_Rewrite_Turflinger_2019.pdf.md",
+      "retrieval": {
+        "etag": null,
+        "immutable_url": null,
+        "last_modified": "2026-07-20T03:00:08+00:00",
+        "media_type": "text/markdown",
+        "requested_url": null,
+        "resolved_url": null,
+        "retrieved_at": "2026-08-10T07:16:54+00:00",
+        "revision": null,
+        "sha256": "c1c5df6a07c9b0516dade397867b00fbfe89be7e7a344a6bdc5173c451787b6f",
+        "size": 34809,
+        "tracking_url": null,
+        "upstream_object_id": null
+      },
+      "source_path": "okf/raw/radiation_standards_uploads/NASA_NEPP_TM1019_Rewrite_Turflinger_2019.pdf.md",
+      "transformation": {
+        "output_sha256": "7465597c36bfcf1b849f40ca08c49560d1801301ac7526a7a7f87cc3534caec0",
+        "pipeline_fingerprint": "fae08e83593c3e5eae46fd78991e003889569fb68fd7b6688d0d4f29f62e133d",
+        "steps": [
+          {
+            "name": "markdown-copy",
+            "version": 1
+          }
+        ]
+      }
+    },
+    {
+      "adapter": "local-file",
+      "artifacts": {
+        "materialized_path": "okf/raw/cache/documents/radiation_standards_uploads/NASA_Standards_for_Radiation_Effects_2015.pdf.md",
+        "normalized_path": "okf/raw/cache/outputs/1526f9ccf6fe8b713991ad98d248788bbcf2af24dbc2bedf6c4b5a5ccd0155e0/document.md",
+        "original_path": "okf/raw/cache/objects/4686c70983c4f6bf58ae3b5b9beefc638b900b7e77d66e310fc8fcca8c97ad8b/original.md"
+      },
+      "document_id": "nasa-radiation-standards-2015",
+      "item_id": "nasa-radiation-standards-2015",
+      "lifecycle": {
+        "last_successful_retrieval": "2026-08-10T07:16:54+00:00",
+        "refresh_policy": "automatic",
+        "state": "active"
+      },
+      "logical_path": "radiation_standards_uploads/NASA_Standards_for_Radiation_Effects_2015.pdf.md",
+      "retrieval": {
+        "etag": null,
+        "immutable_url": null,
+        "last_modified": "2026-07-20T03:00:08+00:00",
+        "media_type": "text/markdown",
+        "requested_url": null,
+        "resolved_url": null,
+        "retrieved_at": "2026-08-10T07:16:54+00:00",
+        "revision": null,
+        "sha256": "4686c70983c4f6bf58ae3b5b9beefc638b900b7e77d66e310fc8fcca8c97ad8b",
+        "size": 36117,
+        "tracking_url": null,
+        "upstream_object_id": null
+      },
+      "source_path": "okf/raw/radiation_standards_uploads/NASA_Standards_for_Radiation_Effects_2015.pdf.md",
+      "transformation": {
+        "output_sha256": "1526f9ccf6fe8b713991ad98d248788bbcf2af24dbc2bedf6c4b5a5ccd0155e0",
+        "pipeline_fingerprint": "fae08e83593c3e5eae46fd78991e003889569fb68fd7b6688d0d4f29f62e133d",
+        "steps": [
+          {
+            "name": "markdown-copy",
+            "version": 1
+          }
+        ]
+      }
+    },
+    {
+      "adapter": "local-file",
+      "artifacts": {
+        "materialized_path": "okf/raw/cache/documents/radiation_standards_uploads/20210018053 - Avionics Radiation Hardness Assurance (RHA) Guidelines.pdf.md",
+        "normalized_path": "okf/raw/cache/outputs/d33e70fb04e007d20b783acf92edffacace5dbf452d95bf2f67eb0bec017e2a2/document.md",
+        "original_path": "okf/raw/cache/objects/114455b6b9210b105297a9219d0929edbacfde947efc7fd5f21c7fec58c535b0/original.md"
+      },
+      "document_id": "rha-guidelines-2021",
+      "item_id": "rha-guidelines-2021",
+      "lifecycle": {
+        "last_successful_retrieval": "2026-08-10T07:16:54+00:00",
+        "refresh_policy": "automatic",
+        "state": "active"
+      },
+      "logical_path": "radiation_standards_uploads/20210018053 - Avionics Radiation Hardness Assurance (RHA) Guidelines.pdf.md",
+      "retrieval": {
+        "etag": null,
+        "immutable_url": null,
+        "last_modified": "2026-07-20T03:00:07+00:00",
+        "media_type": "text/markdown",
+        "requested_url": null,
+        "resolved_url": null,
+        "retrieved_at": "2026-08-10T07:16:54+00:00",
+        "revision": null,
+        "sha256": "114455b6b9210b105297a9219d0929edbacfde947efc7fd5f21c7fec58c535b0",
+        "size": 518019,
+        "tracking_url": null,
+        "upstream_object_id": null
+      },
+      "source_path": "okf/raw/radiation_standards_uploads/20210018053 - Avionics Radiation Hardness Assurance (RHA) Guidelines.pdf.md",
+      "transformation": {
+        "output_sha256": "d33e70fb04e007d20b783acf92edffacace5dbf452d95bf2f67eb0bec017e2a2",
+        "pipeline_fingerprint": "fae08e83593c3e5eae46fd78991e003889569fb68fd7b6688d0d4f29f62e133d",
+        "steps": [
+          {
+            "name": "markdown-copy",
+            "version": 1
+          }
+        ]
+      }
+    },
+    {
+      "adapter": "local-file",
+      "artifacts": {
+        "materialized_path": "okf/raw/cache/documents/radiation_standards_uploads/ADA619374.pdf.md",
+        "normalized_path": "okf/raw/cache/outputs/97eb8df2702ee3fdab2cbd52ee8e60ead9e40ae7335d39f4cab9bdeeb8de0245/document.md",
+        "original_path": "okf/raw/cache/objects/81c3d7b102dd19b2407b10566a33837eeecedff7a8dbfeb45d2c6ef1cff7e6e5/original.md"
+      },
+      "document_id": "smc-standard",
+      "item_id": "smc-standard",
+      "lifecycle": {
+        "last_successful_retrieval": "2026-08-10T07:16:54+00:00",
+        "refresh_policy": "automatic",
+        "state": "active"
+      },
+      "logical_path": "radiation_standards_uploads/ADA619374.pdf.md",
+      "retrieval": {
+        "etag": null,
+        "immutable_url": null,
+        "last_modified": "2026-07-20T03:00:08+00:00",
+        "media_type": "text/markdown",
+        "requested_url": null,
+        "resolved_url": null,
+        "retrieved_at": "2026-08-10T07:16:54+00:00",
+        "revision": null,
+        "sha256": "81c3d7b102dd19b2407b10566a33837eeecedff7a8dbfeb45d2c6ef1cff7e6e5",
+        "size": 1211511,
+        "tracking_url": null,
+        "upstream_object_id": null
+      },
+      "source_path": "okf/raw/radiation_standards_uploads/ADA619374.pdf.md",
+      "transformation": {
+        "output_sha256": "97eb8df2702ee3fdab2cbd52ee8e60ead9e40ae7335d39f4cab9bdeeb8de0245",
+        "pipeline_fingerprint": "fae08e83593c3e5eae46fd78991e003889569fb68fd7b6688d0d4f29f62e133d",
+        "steps": [
+          {
+            "name": "markdown-copy",
+            "version": 1
+          }
+        ]
+      }
+    },
+    {
+      "adapter": "local-file",
+      "artifacts": {
+        "materialized_path": "okf/raw/cache/documents/radiation_standards_uploads/sgzy002a - TI Radiation Handbook for Electronics.pdf.md",
+        "normalized_path": "okf/raw/cache/outputs/384bfbfcb7d2f5a9ec429107efa1f98be6466da318b27965905c2427ec31494d/document.md",
+        "original_path": "okf/raw/cache/objects/602d646b908f9514e8000d252e3ed3a518fbef2e1d9e75203add8f8066f8508c/original.md"
+      },
+      "document_id": "ti-radiation-handbook",
+      "item_id": "ti-radiation-handbook",
+      "lifecycle": {
+        "last_successful_retrieval": "2026-08-10T07:16:55+00:00",
+        "refresh_policy": "automatic",
+        "state": "active"
+      },
+      "logical_path": "radiation_standards_uploads/sgzy002a - TI Radiation Handbook for Electronics.pdf.md",
+      "retrieval": {
+        "etag": null,
+        "immutable_url": null,
+        "last_modified": "2026-07-21T04:27:54+00:00",
+        "media_type": "text/markdown",
+        "requested_url": null,
+        "resolved_url": null,
+        "retrieved_at": "2026-08-10T07:16:55+00:00",
+        "revision": null,
+        "sha256": "602d646b908f9514e8000d252e3ed3a518fbef2e1d9e75203add8f8066f8508c",
+        "size": 680869,
+        "tracking_url": null,
+        "upstream_object_id": null
+      },
+      "source_path": "okf/raw/radiation_standards_uploads/sgzy002a - TI Radiation Handbook for Electronics.pdf.md",
+      "transformation": {
+        "output_sha256": "384bfbfcb7d2f5a9ec429107efa1f98be6466da318b27965905c2427ec31494d",
+        "pipeline_fingerprint": "fae08e83593c3e5eae46fd78991e003889569fb68fd7b6688d0d4f29f62e133d",
+        "steps": [
+          {
+            "name": "markdown-copy",
+            "version": 1
+          }
+        ]
+      }
+    }
+  ],
+  "manifest_sha256": "4a8ca37985f4c2856385091a07d73518913bb5d4048db7a0773df35ffab6a03d",
+  "schema_version": 1,
+  "source_id": "radiation-testing-evidence",
+  "updated_at": "2026-08-10T07:16:55+00:00"
+}

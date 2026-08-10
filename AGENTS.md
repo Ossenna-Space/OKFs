@@ -103,5 +103,6 @@ When the user requests a durable behavior change, record it here or in the relev
 - `_Requirements/AGENTS.md` governs functional requirements.
 - `_Documentation/AGENTS.md` governs repository-level architecture and usage documentation.
 - `_tools/AGENTS.md` governs deterministic source-management tooling and its tests.
+- `Radiation Testing/AGENTS.md` governs the Radiation Testing OKF catalog project.
 - Catalog projects must add their own `AGENTS.md` when created and must be listed here.
 - Root-owned files include `README.md`, `.gitignore`, and repository configuration.

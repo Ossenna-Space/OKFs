@@ -1,0 +1,27 @@
+{
+  "changes": {
+    "added": [
+      "ansto-radiation-capabilities",
+      "ecss-2012",
+      "ecss-2025",
+      "hiaf-sibl-brochure",
+      "jsc-08080-2",
+      "jsc-67551-aires",
+      "mil-std-883-1",
+      "nasa-clps-2023",
+      "nasa-eee-inst-002",
+      "nasa-eee-inst-002-addendum",
+      "nasa-nepp-compendium-2021",
+      "nasa-nepp-tm1019-rewrite",
+      "nasa-radiation-standards-2015",
+      "rha-guidelines-2021",
+      "smc-standard",
+      "ti-radiation-handbook"
+    ],
+    "changed": [],
+    "removed": [],
+    "unchanged": []
+  },
+  "schema_version": 1,
+  "source_id": "radiation-testing-evidence"
+}
