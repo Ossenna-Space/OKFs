@@ -1,0 +1,12 @@
+# Python worker artifacts
+__pycache__/
+*.py[cod]
+
+# Reference-only OKF hydration caches. Retained evidence remains tracked.
+**/okf/raw/*/cache/
+
+# Test and editor artifacts
+.coverage
+.pytest_cache/
+.vscode/
+.idea/

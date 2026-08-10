@@ -1,0 +1,21 @@
+{
+  "changes": {
+    "added": [
+      "dictionary:AFK.md",
+      "dictionary:Attention budget.md",
+      "dictionary:Handoff artifact.md",
+      "dictionary:Model provider request.md",
+      "dictionary:Model.md",
+      "dictionary:Output tokens.md",
+      "dictionary:Permission request.md",
+      "dictionary:System prompt.md",
+      "dictionary:Tool call.md",
+      "dictionary:Turn.md"
+    ],
+    "changed": [],
+    "removed": [],
+    "unchanged": []
+  },
+  "schema_version": 1,
+  "source_id": "dictionary-of-ai-coding"
+}

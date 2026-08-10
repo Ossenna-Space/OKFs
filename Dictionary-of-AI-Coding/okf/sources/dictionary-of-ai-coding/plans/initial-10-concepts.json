@@ -1,0 +1,206 @@
+{
+  "concepts": [
+    {
+      "concept_id": "terms/afk",
+      "frontmatter": {
+        "type": "AI Coding Term",
+        "resource": "https://github.com/mattpocock/dictionary-of-ai-coding/blob/251fec7ec3b08059e4203863024e6123090a54e3/dictionary/AFK.md",
+        "title": "AFK",
+        "description": "An unattended work pattern in which a user starts an agent session and leaves it to continue without live supervision.",
+        "tags": ["ai-coding", "agent-workflow", "unattended"],
+        "sources": [
+          {
+            "source_id": "dictionary-of-ai-coding",
+            "document_id": "dictionary:AFK.md",
+            "revision": "251fec7ec3b08059e4203863024e6123090a54e3",
+            "input_sha256": "e6ac193dc5f599eb484c55023a19057634d816278c465363a8a3b53d93460382",
+            "normalized_sha256": "e6ac193dc5f599eb484c55023a19057634d816278c465363a8a3b53d93460382"
+          }
+        ]
+      },
+      "body": "# Overview\n\nAFK (away from keyboard) is a working pattern where an agent continues after the user has left. It can increase throughput through parallel unattended sessions, but early ambiguity can compound into coherent work aimed at the wrong outcome. Effective AFK work therefore benefits from clear specifications, automated checks, sandboxing, and reviewable outputs.\n\n# Operational implication\n\nHuman review is deferred rather than removed. The unattended environment must provide enough constraints and feedback for the agent to fail safely and produce work that can be reviewed later.\n\n# Citations\n\n- [Dictionary source at locked commit](https://github.com/mattpocock/dictionary-of-ai-coding/blob/251fec7ec3b08059e4203863024e6123090a54e3/dictionary/AFK.md)"
+    },
+    {
+      "concept_id": "terms/attention-budget",
+      "frontmatter": {
+        "type": "AI Coding Term",
+        "resource": "https://github.com/mattpocock/dictionary-of-ai-coding/blob/251fec7ec3b08059e4203863024e6123090a54e3/dictionary/Attention%20budget.md",
+        "title": "Attention budget",
+        "description": "The finite influence each token can distribute across the rest of a model's context.",
+        "tags": ["ai-coding", "attention", "context"],
+        "sources": [
+          {
+            "source_id": "dictionary-of-ai-coding",
+            "document_id": "dictionary:Attention budget.md",
+            "revision": "251fec7ec3b08059e4203863024e6123090a54e3",
+            "input_sha256": "a25faffd26d815132f844d66ad2fe26ba7435026097fff52747afa2aad6c9c6b",
+            "normalized_sha256": "a25faffd26d815132f844d66ad2fe26ba7435026097fff52747afa2aad6c9c6b"
+          }
+        ]
+      },
+      "body": "# Overview\n\nAn attention budget describes the limited influence available to each token across a context. As context grows, important instructions compete with more surrounding material even though their text has not changed. This declining signal-to-noise ratio can look like forgetting or disobedience.\n\n# Operational implication\n\nKeep task context focused, remove material that no longer contributes, and restate critical constraints when a long session makes them less prominent.\n\n# Citations\n\n- [Dictionary source at locked commit](https://github.com/mattpocock/dictionary-of-ai-coding/blob/251fec7ec3b08059e4203863024e6123090a54e3/dictionary/Attention%20budget.md)"
+    },
+    {
+      "concept_id": "terms/handoff-artifact",
+      "frontmatter": {
+        "type": "AI Coding Term",
+        "resource": "https://github.com/mattpocock/dictionary-of-ai-coding/blob/251fec7ec3b08059e4203863024e6123090a54e3/dictionary/Handoff%20artifact.md",
+        "title": "Handoff artifact",
+        "description": "A durable document written by one session to carry relevant state into another session.",
+        "tags": ["ai-coding", "handoff", "documentation"],
+        "sources": [
+          {
+            "source_id": "dictionary-of-ai-coding",
+            "document_id": "dictionary:Handoff artifact.md",
+            "revision": "251fec7ec3b08059e4203863024e6123090a54e3",
+            "input_sha256": "22927bc869e426dd4f345f1bb99e6b282790dc671d817f40d7bbd15ad7f7278a",
+            "normalized_sha256": "22927bc869e426dd4f345f1bb99e6b282790dc671d817f40d7bbd15ad7f7278a"
+          }
+        ]
+      },
+      "body": "# Overview\n\nA handoff artifact moves decisions, constraints, progress, and remaining work from one session into a durable environment that another session can read. It compensates for the fact that a [model](./model.md) does not retain session state by itself.\n\n# Operational implication\n\nA useful artifact assumes a fresh reader with no prior context, gives concrete paths and decisions, and distinguishes its secondary account from primary evidence such as code and tests.\n\n# Citations\n\n- [Dictionary source at locked commit](https://github.com/mattpocock/dictionary-of-ai-coding/blob/251fec7ec3b08059e4203863024e6123090a54e3/dictionary/Handoff%20artifact.md)"
+    },
+    {
+      "concept_id": "terms/model-provider-request",
+      "frontmatter": {
+        "type": "AI Coding Term",
+        "resource": "https://github.com/mattpocock/dictionary-of-ai-coding/blob/251fec7ec3b08059e4203863024e6123090a54e3/dictionary/Model%20provider%20request.md",
+        "title": "Model provider request",
+        "description": "One round trip in which a harness sends context to a model provider and receives a response.",
+        "tags": ["ai-coding", "model-provider", "request"],
+        "sources": [
+          {
+            "source_id": "dictionary-of-ai-coding",
+            "document_id": "dictionary:Model provider request.md",
+            "revision": "251fec7ec3b08059e4203863024e6123090a54e3",
+            "input_sha256": "97f1169b6a7adcb2b33fe58d9a79caa89c1cab4d8696383bcb3d87002b296a63",
+            "normalized_sha256": "97f1169b6a7adcb2b33fe58d9a79caa89c1cab4d8696383bcb3d87002b296a63"
+          }
+        ]
+      },
+      "body": "# Overview\n\nA model provider request is a single round trip between a harness and a [model](./model.md). The harness sends the current context and receives either a [tool call](./tool-call.md) or a final response. Tool results can cause several requests inside one [turn](./turn.md).\n\n# Cost and context\n\nEach request can resend the accumulated context, including the [system prompt](./system-prompt.md), while billing counts input and [output tokens](./output-tokens.md) at the request level. Request count and context size therefore both affect cost.\n\n# Citations\n\n- [Dictionary source at locked commit](https://github.com/mattpocock/dictionary-of-ai-coding/blob/251fec7ec3b08059e4203863024e6123090a54e3/dictionary/Model%20provider%20request.md)"
+    },
+    {
+      "concept_id": "terms/model",
+      "frontmatter": {
+        "type": "AI Coding Term",
+        "resource": "https://github.com/mattpocock/dictionary-of-ai-coding/blob/251fec7ec3b08059e4203863024e6123090a54e3/dictionary/Model.md",
+        "title": "Model",
+        "description": "A stateless parameterized system that predicts output tokens from input tokens.",
+        "tags": ["ai-coding", "model", "inference"],
+        "sources": [
+          {
+            "source_id": "dictionary-of-ai-coding",
+            "document_id": "dictionary:Model.md",
+            "revision": "251fec7ec3b08059e4203863024e6123090a54e3",
+            "input_sha256": "c3ceb17b0b3c36120385189e4196e5d481cc82660f4e1b4c0bceecc5e420b1a5",
+            "normalized_sha256": "c3ceb17b0b3c36120385189e4196e5d481cc82660f4e1b4c0bceecc5e420b1a5"
+          }
+        ]
+      },
+      "body": "# Overview\n\nA model is the stateless parameter set that performs next-token prediction. It receives tokens and returns tokens during a [model provider request](./model-provider-request.md); capabilities such as reading files, running commands, and iterating arise from the surrounding harness rather than from the model alone.\n\n# Operational implication\n\nModel tier affects capability, latency, and cost, but diagnosis should also consider the context, tools, and harness that shape the model's work.\n\n# Citations\n\n- [Dictionary source at locked commit](https://github.com/mattpocock/dictionary-of-ai-coding/blob/251fec7ec3b08059e4203863024e6123090a54e3/dictionary/Model.md)"
+    },
+    {
+      "concept_id": "terms/output-tokens",
+      "frontmatter": {
+        "type": "AI Coding Term",
+        "resource": "https://github.com/mattpocock/dictionary-of-ai-coding/blob/251fec7ec3b08059e4203863024e6123090a54e3/dictionary/Output%20tokens.md",
+        "title": "Output tokens",
+        "description": "Tokens generated by a model in its response, including visible text, tool calls, and reasoning output.",
+        "tags": ["ai-coding", "tokens", "cost"],
+        "sources": [
+          {
+            "source_id": "dictionary-of-ai-coding",
+            "document_id": "dictionary:Output tokens.md",
+            "revision": "251fec7ec3b08059e4203863024e6123090a54e3",
+            "input_sha256": "9064a4e69f07b08753a7211d1f2367d94ff891d5280b3acc709096ee8bf45050",
+            "normalized_sha256": "9064a4e69f07b08753a7211d1f2367d94ff891d5280b3acc709096ee8bf45050"
+          }
+        ]
+      },
+      "body": "# Overview\n\nOutput tokens are the tokens a [model](./model.md) generates, including prose, code, [tool calls](./tool-call.md), and reasoning output that may not be displayed by the harness. They are counted for each [model provider request](./model-provider-request.md).\n\n# Operational implication\n\nGeneration happens incrementally, so large outputs influence both cost and perceived [turn](./turn.md) latency. Focused edits can avoid spending output on unnecessary whole-file rewrites.\n\n# Citations\n\n- [Dictionary source at locked commit](https://github.com/mattpocock/dictionary-of-ai-coding/blob/251fec7ec3b08059e4203863024e6123090a54e3/dictionary/Output%20tokens.md)"
+    },
+    {
+      "concept_id": "terms/permission-request",
+      "frontmatter": {
+        "type": "AI Coding Term",
+        "resource": "https://github.com/mattpocock/dictionary-of-ai-coding/blob/251fec7ec3b08059e4203863024e6123090a54e3/dictionary/Permission%20request.md",
+        "title": "Permission request",
+        "description": "A harness checkpoint that asks a user to approve a tool call that is not already authorized.",
+        "tags": ["ai-coding", "permissions", "human-in-the-loop"],
+        "sources": [
+          {
+            "source_id": "dictionary-of-ai-coding",
+            "document_id": "dictionary:Permission request.md",
+            "revision": "251fec7ec3b08059e4203863024e6123090a54e3",
+            "input_sha256": "9bc1edfbcc96392a4d223c13d14be6f79d196695829977b8db7ad4034d79a969",
+            "normalized_sha256": "9bc1edfbcc96392a4d223c13d14be6f79d196695829977b8db7ad4034d79a969"
+          }
+        ]
+      },
+      "body": "# Overview\n\nA permission request is the harness mechanism that pauses an unapproved [tool call](./tool-call.md) for human authorization. Approval allows execution; denial is returned to the [model](./model.md) as feedback that can steer a different approach.\n\n# Operational implication\n\nPermission requests keep people in the loop for risky actions, but each request introduces a synchronous wait. Permission policy should pre-authorize genuinely safe actions while retaining review for meaningful risk.\n\n# Citations\n\n- [Dictionary source at locked commit](https://github.com/mattpocock/dictionary-of-ai-coding/blob/251fec7ec3b08059e4203863024e6123090a54e3/dictionary/Permission%20request.md)"
+    },
+    {
+      "concept_id": "terms/system-prompt",
+      "frontmatter": {
+        "type": "AI Coding Term",
+        "resource": "https://github.com/mattpocock/dictionary-of-ai-coding/blob/251fec7ec3b08059e4203863024e6123090a54e3/dictionary/System%20prompt.md",
+        "title": "System prompt",
+        "description": "The standing instructions a harness places before user context in each model provider request.",
+        "tags": ["ai-coding", "prompting", "harness"],
+        "sources": [
+          {
+            "source_id": "dictionary-of-ai-coding",
+            "document_id": "dictionary:System prompt.md",
+            "revision": "251fec7ec3b08059e4203863024e6123090a54e3",
+            "input_sha256": "aca2bebd8be3afb8bef83f56217f8f1406cfe6b837e65f34cebb56ef924fbb39",
+            "normalized_sha256": "aca2bebd8be3afb8bef83f56217f8f1406cfe6b837e65f34cebb56ef924fbb39"
+          }
+        ]
+      },
+      "body": "# Overview\n\nA system prompt is the harness-provided standing brief included in every [model provider request](./model-provider-request.md). It describes behavior, tools, conventions, and constraints that shape how the [model](./model.md) responds and emits [tool calls](./tool-call.md).\n\n# Operational implication\n\nBecause it remains stable across a session, the system prompt commonly forms the beginning of a reusable request prefix. Its higher instruction priority can explain persistent differences between harnesses or conflicts with instructions given later in a [turn](./turn.md).\n\n# Citations\n\n- [Dictionary source at locked commit](https://github.com/mattpocock/dictionary-of-ai-coding/blob/251fec7ec3b08059e4203863024e6123090a54e3/dictionary/System%20prompt.md)"
+    },
+    {
+      "concept_id": "terms/tool-call",
+      "frontmatter": {
+        "type": "AI Coding Term",
+        "resource": "https://github.com/mattpocock/dictionary-of-ai-coding/blob/251fec7ec3b08059e4203863024e6123090a54e3/dictionary/Tool%20call.md",
+        "title": "Tool call",
+        "description": "Structured model output that names a tool and arguments for the harness to validate and execute.",
+        "tags": ["ai-coding", "tools", "harness"],
+        "sources": [
+          {
+            "source_id": "dictionary-of-ai-coding",
+            "document_id": "dictionary:Tool call.md",
+            "revision": "251fec7ec3b08059e4203863024e6123090a54e3",
+            "input_sha256": "f1a1a3c6bf962ae44295888dd92fd3dd18abf82ac384ced245324c47d7f252cf",
+            "normalized_sha256": "f1a1a3c6bf962ae44295888dd92fd3dd18abf82ac384ced245324c47d7f252cf"
+          }
+        ]
+      },
+      "body": "# Overview\n\nA tool call is structured text produced by a [model](./model.md) during a [model provider request](./model-provider-request.md). It names a tool and arguments, but the surrounding harness must parse, authorize, and execute it before any external action occurs.\n\n# Operational implication\n\nA plausible tool call can still contain incorrect paths or arguments. The harness executes the structure that was emitted, so clear tool descriptions, permission checks, and result feedback are important. Multiple tool calls commonly occur inside one [turn](./turn.md), guided by the [system prompt](./system-prompt.md).\n\n# Citations\n\n- [Dictionary source at locked commit](https://github.com/mattpocock/dictionary-of-ai-coding/blob/251fec7ec3b08059e4203863024e6123090a54e3/dictionary/Tool%20call.md)"
+    },
+    {
+      "concept_id": "terms/turn",
+      "frontmatter": {
+        "type": "AI Coding Term",
+        "resource": "https://github.com/mattpocock/dictionary-of-ai-coding/blob/251fec7ec3b08059e4203863024e6123090a54e3/dictionary/Turn.md",
+        "title": "Turn",
+        "description": "One user message and all agent activity that follows before control returns to the user.",
+        "tags": ["ai-coding", "session", "interaction"],
+        "sources": [
+          {
+            "source_id": "dictionary-of-ai-coding",
+            "document_id": "dictionary:Turn.md",
+            "revision": "251fec7ec3b08059e4203863024e6123090a54e3",
+            "input_sha256": "4a49db30413ed104232ccd5d342289f13439f330b6df8c8ec5d0c72affe913d7",
+            "normalized_sha256": "4a49db30413ed104232ccd5d342289f13439f330b6df8c8ec5d0c72affe913d7"
+          }
+        ]
+      },
+      "body": "# Overview\n\nA turn begins with one user message and includes everything the agent does before returning control. It may contain one or many [model provider requests](./model-provider-request.md), particularly when the agent chains [tool calls](./tool-call.md).\n\n# Operational implication\n\nTurn length determines how much autonomous work happens between opportunities for user steering. Longer turns support unattended progress but allow more drift before feedback; shorter turns create more frequent review points.\n\n# Citations\n\n- [Dictionary source at locked commit](https://github.com/mattpocock/dictionary-of-ai-coding/blob/251fec7ec3b08059e4203863024e6123090a54e3/dictionary/Turn.md)"
+    }
+  ],
+  "source_id": "dictionary-of-ai-coding",
+  "source_revision": "251fec7ec3b08059e4203863024e6123090a54e3"
+}

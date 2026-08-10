@@ -1,0 +1,33 @@
+{
+  "id": "dictionary-of-ai-coding",
+  "items": [
+    {
+      "fetch": {
+        "adapter": "github-tree",
+        "include": [
+          "**/*.md"
+        ],
+        "path": "dictionary",
+        "ref": "main",
+        "repository": "mattpocock/dictionary-of-ai-coding"
+      },
+      "id": "dictionary",
+      "selection": {
+        "count": 10,
+        "seed": 20260810,
+        "strategy": "random"
+      },
+      "transform": [
+        {
+          "name": "markdown-copy",
+          "version": 1
+        }
+      ]
+    }
+  ],
+  "schema_version": 1,
+  "storage": {
+    "normalized": "reference-only",
+    "originals": "reference-only"
+  }
+}
