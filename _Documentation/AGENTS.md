@@ -7,6 +7,7 @@
 ## Ownership
 
 - `Index.md` lists repository documentation.
+- `catalog-index.md` describes the repository landing page and its maintenance contract.
 - `source-management.md` describes source manifests, locks, storage, commands, and lifecycle behavior.
 
 ## Local Contracts

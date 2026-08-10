@@ -105,4 +105,5 @@ When the user requests a durable behavior change, record it here or in the relev
 - `_tools/AGENTS.md` governs deterministic source-management tooling and its tests.
 - `Radiation Testing/AGENTS.md` governs the Radiation Testing OKF catalog project.
 - Catalog projects must add their own `AGENTS.md` when created and must be listed here.
-- Root-owned files include `README.md`, `.gitignore`, and repository configuration.
+- Root-owned files include `README.md`, `index.html`, `.gitignore`, and repository configuration.
+- Keep `index.html` synchronized with direct-child catalog projects that provide `okf/catalog/viz.html`.
