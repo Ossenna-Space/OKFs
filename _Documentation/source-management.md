@@ -91,11 +91,11 @@ The plugin reads the repository `AGENTS.md`, resolves projects and committed man
 Typical explicit skill prompts are:
 
 ```text
-$okf-project-manager Hydrate the Dictionary of AI Coding sources from the committed lock. Do not refresh.
+$okf-project-manager Hydrate <project-name> from its committed source lock. Do not refresh.
 
-$okf-project-manager Check the Dictionary of AI Coding upstream source. Report added, changed, removed, and unchanged normalized documents without modifying anything.
+$okf-project-manager Check <project-name> upstream sources. Report added, changed, removed, and unchanged normalized documents without modifying anything.
 
-$okf-project-manager Apply the reviewed Dictionary of AI Coding source refresh, update only affected concepts, append the catalog log, and run the full pipeline.
+$okf-project-manager Apply the reviewed <project-name> source refresh, update only affected concepts, append the catalog log, and run the full pipeline.
 ```
 
 After a refresh changes normalized outputs, the plugin maps changed source documents to affected concepts, performs reviewed concept updates, appends the catalog log, and runs the OKF catalog pipeline. Source hydration alone does not rewrite concepts or generated catalog artifacts.

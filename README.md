@@ -4,10 +4,6 @@ This repository holds multiple independent Open Knowledge Format (OKF) catalog p
 
 > Use with the [OKF Manager Codex Plugin](https://github.com/DrMarty/skills/tree/master/skills/okf-manager) to manage catalog evolution.
 
-## Catalog projects
-
-- [Dictionary of AI Coding](Dictionary-of-AI-Coding/_Documentation/catalog.md): a provenance-linked trial catalog derived from a deterministic sample of Matt Pocock's dictionary.
-
 ## Manage catalogs from Codex
 
 Open this repository as the Codex workspace and ask the OKF Manager plugin to operate on a catalog. You can invoke its skill explicitly with `$okf-project-manager` or ask for the OKF Manager in natural language.
@@ -17,11 +13,11 @@ Examples:
 ```text
 $okf-project-manager Show source status for every OKF project in this repository.
 
-$okf-project-manager Hydrate the Dictionary of AI Coding sources from the committed lock. Do not refresh upstream revisions.
+$okf-project-manager Hydrate <project-name> from its committed source lock. Do not refresh upstream revisions.
 
-$okf-project-manager Check the Dictionary of AI Coding upstream sources and report changes without modifying its lock or catalog.
+$okf-project-manager Check <project-name> upstream sources and report changes without modifying its lock or catalog.
 
-$okf-project-manager Refresh the Dictionary of AI Coding source, update only concepts affected by normalized-document changes, and run the catalog validation pipeline.
+$okf-project-manager Refresh <project-name>, update only concepts affected by normalized-document changes, and run the catalog validation pipeline.
 
 $okf-project-manager Run portable source and catalog validation for every project in this repository.
 
