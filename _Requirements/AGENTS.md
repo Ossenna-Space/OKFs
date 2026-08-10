@@ -7,6 +7,7 @@
 ## Ownership
 
 - `Index.md` lists requirements documents.
+- `catalog-index.md` defines discovery and navigation outcomes for catalog projects.
 - `source-management.md` defines portable source acquisition, transformation, hydration, refresh, retention, and validation outcomes.
 
 ## Local Contracts
