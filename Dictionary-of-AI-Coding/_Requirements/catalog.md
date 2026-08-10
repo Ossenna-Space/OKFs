@@ -27,3 +27,7 @@ Every derived concept shall identify its source collection, source document ID, 
 ### R-DOAC-006: Valid portable bundle
 
 The resulting source state shall pass portable and hydrated validation, and the OKF catalog shall pass lint, glossary, index, visualization, and graph verification with at least 10 concepts.
+
+### R-DOAC-007: Flat project source paths
+
+The source manifest, lock, change reports, and plans shall live directly beneath `okf/sources/`, while cache and retained evidence shall live directly beneath `okf/raw/`, without a repeated `dictionary-of-ai-coding` directory.

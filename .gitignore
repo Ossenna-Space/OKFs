@@ -3,7 +3,7 @@ __pycache__/
 *.py[cod]
 
 # Reference-only OKF hydration caches. Retained evidence remains tracked.
-**/okf/raw/*/cache/
+**/okf/raw/cache/
 
 # Test and editor artifacts
 .coverage

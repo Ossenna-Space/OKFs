@@ -114,9 +114,9 @@ def resolve_project_path(project: Path, relative: str) -> Path:
 
 
 def source_paths(project: Path, source_id: str) -> tuple[Path, Path, Path]:
-    source_name = safe_component(source_id)
-    source_dir = project / "okf" / "sources" / source_name
-    return source_dir / "source.json", source_dir / "source.lock.json", project / "okf" / "raw" / source_name
+    safe_component(source_id)
+    source_dir = project / "okf" / "sources"
+    return source_dir / "source.json", source_dir / "source.lock.json", project / "okf" / "raw"
 
 
 def validate_manifest(manifest: dict[str, Any], source_id: str) -> None:

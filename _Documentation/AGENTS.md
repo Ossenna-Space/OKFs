@@ -12,7 +12,7 @@
 ## Local Contracts
 
 - Keep documentation synchronized with implemented interfaces.
-- Separate implementation description from functional intent in `Requirements/`.
+- Separate implementation description from functional intent in `_Requirements/`.
 
 ## Work Guidance
 

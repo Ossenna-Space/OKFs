@@ -90,4 +90,14 @@ Repository instructions shall make the OKF Manager Codex Plugin the primary user
 
 ### R-SRC-020: Deterministic plugin delegation
 
-When operating in this repository, the OKF Manager workflow shall delegate source state changes to `tools/okf_source_manager.py`, resolve projects and source IDs from committed manifests, distinguish read-only checks from writes, and report the helper's deterministic results instead of recreating its behavior conversationally.
+When operating in this repository, the OKF Manager workflow shall delegate source state changes to `_tools/okf_source_manager.py`, resolve projects and source IDs from committed manifests, distinguish read-only checks from writes, and report the helper's deterministic results instead of recreating its behavior conversationally.
+
+## Repository layout outcomes
+
+### R-SRC-021: Distinguished management folders
+
+Repository and catalog-project folders that contain management requirements, documentation, or tools shall use an underscore prefix, including `_Requirements`, `_Documentation`, and `_tools`, so they are visually distinct from OKF catalog project folders.
+
+### R-SRC-022: Flat project source layout
+
+Each catalog project shall store its single source-collection manifest and lock directly under `okf/sources/`, and its cache and retained evidence directly under `okf/raw/`. The project name or source ID shall not be repeated as an intermediate directory beneath those paths.

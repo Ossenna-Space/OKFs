@@ -19,7 +19,7 @@
 
 ## Verification
 
-- Run `python -m unittest discover -s tools/tests -v`.
+- Run `python -m unittest discover -s _tools/tests -v`.
 
 ## Child DOX Index
 

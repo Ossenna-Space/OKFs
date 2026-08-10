@@ -8,11 +8,11 @@ Every catalog project stores committed source intent and resolved provenance sep
 <project>/
 └── okf/
     ├── catalog/
-    ├── sources/<source-id>/
+    ├── sources/
     │   ├── source.json
     │   ├── source.lock.json
     │   └── changes/
-    └── raw/<source-id>/
+    └── raw/
         ├── cache/
         │   ├── objects/
         │   ├── outputs/
@@ -20,7 +20,7 @@ Every catalog project stores committed source intent and resolved provenance sep
         └── retained/
 ```
 
-`cache/` is reconstructable and excluded from Git. `retained/` contains vendored or manually archived evidence and is committed. Original and normalized storage policies are independent.
+Each project owns one source collection, so its manifest and lock live directly in `okf/sources/` and its evidence lives directly in `okf/raw/`; neither path repeats the project name or source ID. `cache/` is reconstructable and excluded from Git. `retained/` contains vendored or manually archived evidence and is committed. Original and normalized storage policies are independent.
 
 ## Manifest
 
@@ -105,12 +105,12 @@ After a refresh changes normalized outputs, the plugin maps changed source docum
 The plugin invokes these commands from the repository root. They are also available directly for automation and troubleshooting:
 
 ```powershell
-python tools/okf_source_manager.py status --project <project> --source <id>
-python tools/okf_source_manager.py check --project <project> --source <id>
-python tools/okf_source_manager.py refresh --project <project> --source <id>
-python tools/okf_source_manager.py hydrate --project <project> --source <id>
-python tools/okf_source_manager.py validate --project <project> --source <id> --mode portable
-python tools/okf_source_manager.py validate --project <project> --source <id> --mode hydrated
+python _tools/okf_source_manager.py status --project <project> --source <id>
+python _tools/okf_source_manager.py check --project <project> --source <id>
+python _tools/okf_source_manager.py refresh --project <project> --source <id>
+python _tools/okf_source_manager.py hydrate --project <project> --source <id>
+python _tools/okf_source_manager.py validate --project <project> --source <id> --mode portable
+python _tools/okf_source_manager.py validate --project <project> --source <id> --mode hydrated
 ```
 
 `check` performs current retrieval and transformation in memory but does not write artifacts or advance the lock. `refresh` resolves current moving references and writes a new lock. `hydrate` retrieves the exact locations and revisions in the existing lock, verifies input hashes, repeats transformations, and verifies output hashes.
@@ -122,7 +122,7 @@ Portable validation permits absent reference-only cache files. Hydrated validati
 Retrieval failure never automatically declares permanent unavailability. After review, retain the last verified evidence explicitly:
 
 ```powershell
-python tools/okf_source_manager.py mark-unavailable `
+python _tools/okf_source_manager.py mark-unavailable `
   --project <project> `
   --source <id> `
   --document <document-id> `
@@ -134,7 +134,7 @@ The operation verifies cached hashes, copies the original and normalized output 
 To test recovery, explicitly target the archived document and allow archived retrieval:
 
 ```powershell
-python tools/okf_source_manager.py refresh `
+python _tools/okf_source_manager.py refresh `
   --project <project> `
   --source <id> `
   --document <document-id> `

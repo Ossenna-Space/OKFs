@@ -12,7 +12,7 @@
 ## Local Contracts
 
 - Structure requirements by functional outcome.
-- Keep implementation details in `Documentation/` unless they are externally observable behavior.
+- Keep implementation details in `_Documentation/` unless they are externally observable behavior.
 - Update requirements before changing source-management behavior.
 
 ## Work Guidance

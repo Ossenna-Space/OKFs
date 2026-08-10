@@ -2,7 +2,7 @@
 
 This project derives an OKF catalog from a deterministic random sample of ten Markdown documents in Matt Pocock's [Dictionary of AI Coding](https://github.com/mattpocock/dictionary-of-ai-coding/tree/main/dictionary).
 
-The committed source manifest follows `main`, restricts acquisition to `dictionary/**/*.md`, and uses random seed `20260810`. Its reference-only storage policy keeps the Git repository compact while `source.lock.json` preserves the exact commit, file hashes, transformation fingerprint, and immutable upstream links needed for hydration.
+The committed `okf/sources/source.json` manifest follows `main`, restricts acquisition to `dictionary/**/*.md`, and uses random seed `20260810`. Its reference-only storage policy keeps the Git repository compact by hydrating into `okf/raw/cache/`, while `okf/sources/source.lock.json` preserves the exact commit, file hashes, transformation fingerprint, and immutable upstream links needed for hydration.
 
 Use the OKF Manager Codex Plugin from the repository root:
 

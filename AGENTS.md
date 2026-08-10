@@ -83,12 +83,14 @@ When the user requests a durable behavior change, record it here or in the relev
 - Keep hydrated source caches optional; make locked hydration distinct from advancing an upstream source revision.
 - Model a raw source as a collection of independently retrievable and transformable documents.
 - Preserve the last verified evidence when a user manually archives an unavailable source, and exclude archived sources from automatic refresh.
-- Treat the OKF Manager Codex Plugin as the primary interface for catalog evolution; repository-local source operations must delegate to `tools/okf_source_manager.py`.
+- Treat the OKF Manager Codex Plugin as the primary interface for catalog evolution; repository-local source operations must delegate to `_tools/okf_source_manager.py`.
+- Prefix repository-management folders with `_` so they remain distinct from catalog project folders.
+- Keep each project's manifest and lock directly under `okf/sources/` and its evidence directly under `okf/raw/`; do not repeat the project name below those paths.
 
 ## OKF Manager Codex Workflow
 
-- Resolve a named catalog project from its direct-child folder and a source from `<project>/okf/sources/<source-id>/source.json`; ask when either is ambiguous.
-- For source status, check, hydrate, refresh, validation, archival, or manual recovery, run `python tools/okf_source_manager.py <command>` from the repository root with explicit `--project` and `--source` arguments.
+- Resolve a named catalog project from its direct-child folder and its source from `<project>/okf/sources/source.json`; ask when the project is ambiguous.
+- For source status, check, hydrate, refresh, validation, archival, or manual recovery, run `python _tools/okf_source_manager.py <command>` from the repository root with explicit `--project` and `--source` arguments.
 - Treat `status`, `check`, and portable validation as read-only. State clearly that `check` may use the network but does not update the lock.
 - Treat `hydrate` as reconstruction of the committed lock. It may populate ignored cache files but must not advance upstream revisions.
 - Before advancing a source, prefer `check` and report the proposed normalized-document changes. Run `refresh` when the user's request explicitly authorizes applying the update.
@@ -98,9 +100,9 @@ When the user requests a durable behavior change, record it here or in the relev
 
 ## Child DOX Index
 
-- `Requirements/AGENTS.md` governs functional requirements.
-- `Documentation/AGENTS.md` governs repository-level architecture and usage documentation.
-- `tools/AGENTS.md` governs deterministic source-management tooling and its tests.
+- `_Requirements/AGENTS.md` governs functional requirements.
+- `_Documentation/AGENTS.md` governs repository-level architecture and usage documentation.
+- `_tools/AGENTS.md` governs deterministic source-management tooling and its tests.
 - `Dictionary-of-AI-Coding/AGENTS.md` governs the Dictionary of AI Coding catalog project.
 - Catalog projects must add their own `AGENTS.md` when created and must be listed here.
 - Root-owned files include `README.md`, `.gitignore`, and repository configuration.

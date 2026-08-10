@@ -3,9 +3,9 @@
     {
       "adapter": "github-tree",
       "artifacts": {
-        "materialized_path": "okf/raw/dictionary-of-ai-coding/cache/documents/AFK.md",
-        "normalized_path": "okf/raw/dictionary-of-ai-coding/cache/outputs/e6ac193dc5f599eb484c55023a19057634d816278c465363a8a3b53d93460382/document.md",
-        "original_path": "okf/raw/dictionary-of-ai-coding/cache/objects/e6ac193dc5f599eb484c55023a19057634d816278c465363a8a3b53d93460382/original.md"
+        "materialized_path": "okf/raw/cache/documents/AFK.md",
+        "normalized_path": "okf/raw/cache/outputs/e6ac193dc5f599eb484c55023a19057634d816278c465363a8a3b53d93460382/document.md",
+        "original_path": "okf/raw/cache/objects/e6ac193dc5f599eb484c55023a19057634d816278c465363a8a3b53d93460382/original.md"
       },
       "document_id": "dictionary:AFK.md",
       "item_id": "dictionary",
@@ -44,9 +44,9 @@
     {
       "adapter": "github-tree",
       "artifacts": {
-        "materialized_path": "okf/raw/dictionary-of-ai-coding/cache/documents/Attention budget.md",
-        "normalized_path": "okf/raw/dictionary-of-ai-coding/cache/outputs/a25faffd26d815132f844d66ad2fe26ba7435026097fff52747afa2aad6c9c6b/document.md",
-        "original_path": "okf/raw/dictionary-of-ai-coding/cache/objects/a25faffd26d815132f844d66ad2fe26ba7435026097fff52747afa2aad6c9c6b/original.md"
+        "materialized_path": "okf/raw/cache/documents/Attention budget.md",
+        "normalized_path": "okf/raw/cache/outputs/a25faffd26d815132f844d66ad2fe26ba7435026097fff52747afa2aad6c9c6b/document.md",
+        "original_path": "okf/raw/cache/objects/a25faffd26d815132f844d66ad2fe26ba7435026097fff52747afa2aad6c9c6b/original.md"
       },
       "document_id": "dictionary:Attention budget.md",
       "item_id": "dictionary",
@@ -85,9 +85,9 @@
     {
       "adapter": "github-tree",
       "artifacts": {
-        "materialized_path": "okf/raw/dictionary-of-ai-coding/cache/documents/Handoff artifact.md",
-        "normalized_path": "okf/raw/dictionary-of-ai-coding/cache/outputs/22927bc869e426dd4f345f1bb99e6b282790dc671d817f40d7bbd15ad7f7278a/document.md",
-        "original_path": "okf/raw/dictionary-of-ai-coding/cache/objects/22927bc869e426dd4f345f1bb99e6b282790dc671d817f40d7bbd15ad7f7278a/original.md"
+        "materialized_path": "okf/raw/cache/documents/Handoff artifact.md",
+        "normalized_path": "okf/raw/cache/outputs/22927bc869e426dd4f345f1bb99e6b282790dc671d817f40d7bbd15ad7f7278a/document.md",
+        "original_path": "okf/raw/cache/objects/22927bc869e426dd4f345f1bb99e6b282790dc671d817f40d7bbd15ad7f7278a/original.md"
       },
       "document_id": "dictionary:Handoff artifact.md",
       "item_id": "dictionary",
@@ -126,9 +126,9 @@
     {
       "adapter": "github-tree",
       "artifacts": {
-        "materialized_path": "okf/raw/dictionary-of-ai-coding/cache/documents/Model provider request.md",
-        "normalized_path": "okf/raw/dictionary-of-ai-coding/cache/outputs/97f1169b6a7adcb2b33fe58d9a79caa89c1cab4d8696383bcb3d87002b296a63/document.md",
-        "original_path": "okf/raw/dictionary-of-ai-coding/cache/objects/97f1169b6a7adcb2b33fe58d9a79caa89c1cab4d8696383bcb3d87002b296a63/original.md"
+        "materialized_path": "okf/raw/cache/documents/Model provider request.md",
+        "normalized_path": "okf/raw/cache/outputs/97f1169b6a7adcb2b33fe58d9a79caa89c1cab4d8696383bcb3d87002b296a63/document.md",
+        "original_path": "okf/raw/cache/objects/97f1169b6a7adcb2b33fe58d9a79caa89c1cab4d8696383bcb3d87002b296a63/original.md"
       },
       "document_id": "dictionary:Model provider request.md",
       "item_id": "dictionary",
@@ -167,9 +167,9 @@
     {
       "adapter": "github-tree",
       "artifacts": {
-        "materialized_path": "okf/raw/dictionary-of-ai-coding/cache/documents/Model.md",
-        "normalized_path": "okf/raw/dictionary-of-ai-coding/cache/outputs/c3ceb17b0b3c36120385189e4196e5d481cc82660f4e1b4c0bceecc5e420b1a5/document.md",
-        "original_path": "okf/raw/dictionary-of-ai-coding/cache/objects/c3ceb17b0b3c36120385189e4196e5d481cc82660f4e1b4c0bceecc5e420b1a5/original.md"
+        "materialized_path": "okf/raw/cache/documents/Model.md",
+        "normalized_path": "okf/raw/cache/outputs/c3ceb17b0b3c36120385189e4196e5d481cc82660f4e1b4c0bceecc5e420b1a5/document.md",
+        "original_path": "okf/raw/cache/objects/c3ceb17b0b3c36120385189e4196e5d481cc82660f4e1b4c0bceecc5e420b1a5/original.md"
       },
       "document_id": "dictionary:Model.md",
       "item_id": "dictionary",
@@ -208,9 +208,9 @@
     {
       "adapter": "github-tree",
       "artifacts": {
-        "materialized_path": "okf/raw/dictionary-of-ai-coding/cache/documents/Output tokens.md",
-        "normalized_path": "okf/raw/dictionary-of-ai-coding/cache/outputs/9064a4e69f07b08753a7211d1f2367d94ff891d5280b3acc709096ee8bf45050/document.md",
-        "original_path": "okf/raw/dictionary-of-ai-coding/cache/objects/9064a4e69f07b08753a7211d1f2367d94ff891d5280b3acc709096ee8bf45050/original.md"
+        "materialized_path": "okf/raw/cache/documents/Output tokens.md",
+        "normalized_path": "okf/raw/cache/outputs/9064a4e69f07b08753a7211d1f2367d94ff891d5280b3acc709096ee8bf45050/document.md",
+        "original_path": "okf/raw/cache/objects/9064a4e69f07b08753a7211d1f2367d94ff891d5280b3acc709096ee8bf45050/original.md"
       },
       "document_id": "dictionary:Output tokens.md",
       "item_id": "dictionary",
@@ -249,9 +249,9 @@
     {
       "adapter": "github-tree",
       "artifacts": {
-        "materialized_path": "okf/raw/dictionary-of-ai-coding/cache/documents/Permission request.md",
-        "normalized_path": "okf/raw/dictionary-of-ai-coding/cache/outputs/9bc1edfbcc96392a4d223c13d14be6f79d196695829977b8db7ad4034d79a969/document.md",
-        "original_path": "okf/raw/dictionary-of-ai-coding/cache/objects/9bc1edfbcc96392a4d223c13d14be6f79d196695829977b8db7ad4034d79a969/original.md"
+        "materialized_path": "okf/raw/cache/documents/Permission request.md",
+        "normalized_path": "okf/raw/cache/outputs/9bc1edfbcc96392a4d223c13d14be6f79d196695829977b8db7ad4034d79a969/document.md",
+        "original_path": "okf/raw/cache/objects/9bc1edfbcc96392a4d223c13d14be6f79d196695829977b8db7ad4034d79a969/original.md"
       },
       "document_id": "dictionary:Permission request.md",
       "item_id": "dictionary",
@@ -290,9 +290,9 @@
     {
       "adapter": "github-tree",
       "artifacts": {
-        "materialized_path": "okf/raw/dictionary-of-ai-coding/cache/documents/System prompt.md",
-        "normalized_path": "okf/raw/dictionary-of-ai-coding/cache/outputs/aca2bebd8be3afb8bef83f56217f8f1406cfe6b837e65f34cebb56ef924fbb39/document.md",
-        "original_path": "okf/raw/dictionary-of-ai-coding/cache/objects/aca2bebd8be3afb8bef83f56217f8f1406cfe6b837e65f34cebb56ef924fbb39/original.md"
+        "materialized_path": "okf/raw/cache/documents/System prompt.md",
+        "normalized_path": "okf/raw/cache/outputs/aca2bebd8be3afb8bef83f56217f8f1406cfe6b837e65f34cebb56ef924fbb39/document.md",
+        "original_path": "okf/raw/cache/objects/aca2bebd8be3afb8bef83f56217f8f1406cfe6b837e65f34cebb56ef924fbb39/original.md"
       },
       "document_id": "dictionary:System prompt.md",
       "item_id": "dictionary",
@@ -331,9 +331,9 @@
     {
       "adapter": "github-tree",
       "artifacts": {
-        "materialized_path": "okf/raw/dictionary-of-ai-coding/cache/documents/Tool call.md",
-        "normalized_path": "okf/raw/dictionary-of-ai-coding/cache/outputs/f1a1a3c6bf962ae44295888dd92fd3dd18abf82ac384ced245324c47d7f252cf/document.md",
-        "original_path": "okf/raw/dictionary-of-ai-coding/cache/objects/f1a1a3c6bf962ae44295888dd92fd3dd18abf82ac384ced245324c47d7f252cf/original.md"
+        "materialized_path": "okf/raw/cache/documents/Tool call.md",
+        "normalized_path": "okf/raw/cache/outputs/f1a1a3c6bf962ae44295888dd92fd3dd18abf82ac384ced245324c47d7f252cf/document.md",
+        "original_path": "okf/raw/cache/objects/f1a1a3c6bf962ae44295888dd92fd3dd18abf82ac384ced245324c47d7f252cf/original.md"
       },
       "document_id": "dictionary:Tool call.md",
       "item_id": "dictionary",
@@ -372,9 +372,9 @@
     {
       "adapter": "github-tree",
       "artifacts": {
-        "materialized_path": "okf/raw/dictionary-of-ai-coding/cache/documents/Turn.md",
-        "normalized_path": "okf/raw/dictionary-of-ai-coding/cache/outputs/4a49db30413ed104232ccd5d342289f13439f330b6df8c8ec5d0c72affe913d7/document.md",
-        "original_path": "okf/raw/dictionary-of-ai-coding/cache/objects/4a49db30413ed104232ccd5d342289f13439f330b6df8c8ec5d0c72affe913d7/original.md"
+        "materialized_path": "okf/raw/cache/documents/Turn.md",
+        "normalized_path": "okf/raw/cache/outputs/4a49db30413ed104232ccd5d342289f13439f330b6df8c8ec5d0c72affe913d7/document.md",
+        "original_path": "okf/raw/cache/objects/4a49db30413ed104232ccd5d342289f13439f330b6df8c8ec5d0c72affe913d7/original.md"
       },
       "document_id": "dictionary:Turn.md",
       "item_id": "dictionary",

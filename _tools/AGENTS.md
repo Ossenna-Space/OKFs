@@ -24,8 +24,8 @@
 
 ## Verification
 
-- Run `python -m unittest discover -s tools/tests -v` from the repository root.
-- Run `python -m py_compile tools/okf_source_manager.py`.
+- Run `python -m unittest discover -s _tools/tests -v` from the repository root.
+- Run `python -m py_compile _tools/okf_source_manager.py`.
 
 ## Child DOX Index
 

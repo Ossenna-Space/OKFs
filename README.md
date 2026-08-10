@@ -1,12 +1,12 @@
 # OKF Catalog Repository
 
-This repository holds multiple independent Open Knowledge Format (OKF) catalog projects. Each project owns its catalog, source definitions, provenance locks, optional retained evidence, requirements, and documentation.
+This repository holds multiple independent Open Knowledge Format (OKF) catalog projects. Each project owns its catalog, source definitions, provenance locks, optional retained evidence, requirements, and documentation. Repository-management folders use an underscore prefix—such as `_Documentation`, `_Requirements`, and `_tools`—so catalog project folders remain visually distinct.
 
 > Use with the [OKF Manager Codex Plugin](https://github.com/DrMarty/skills/tree/master/skills/okf-manager) to manage catalog evolution.
 
 ## Catalog projects
 
-- [Dictionary of AI Coding](Dictionary-of-AI-Coding/Documentation/catalog.md): a provenance-linked trial catalog derived from a deterministic sample of Matt Pocock's dictionary.
+- [Dictionary of AI Coding](Dictionary-of-AI-Coding/_Documentation/catalog.md): a provenance-linked trial catalog derived from a deterministic sample of Matt Pocock's dictionary.
 
 ## Manage catalogs from Codex
 
@@ -41,21 +41,21 @@ The plugin runs the same repository-local helper shown below. These commands are
 A clone can reconstruct exact locked evidence with:
 
 ```powershell
-python tools/okf_source_manager.py hydrate --project <project-folder> --source <source-id>
+python _tools/okf_source_manager.py hydrate --project <project-folder> --source <source-id>
 ```
 
 Use `check` to compare current upstream content without changing local state and `refresh` to deliberately advance the committed lock:
 
 ```powershell
-python tools/okf_source_manager.py check --project <project-folder> --source <source-id>
-python tools/okf_source_manager.py refresh --project <project-folder> --source <source-id>
+python _tools/okf_source_manager.py check --project <project-folder> --source <source-id>
+python _tools/okf_source_manager.py refresh --project <project-folder> --source <source-id>
 ```
 
-See [source-management documentation](Documentation/source-management.md) and the [requirements index](Requirements/Index.md).
+See [source-management documentation](_Documentation/source-management.md) and the [requirements index](_Requirements/Index.md).
 
 ## Verification
 
 ```powershell
-python -m py_compile tools/okf_source_manager.py
-python -m unittest discover -s tools/tests -v
+python -m py_compile _tools/okf_source_manager.py
+python -m unittest discover -s _tools/tests -v
 ```

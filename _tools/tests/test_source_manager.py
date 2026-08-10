@@ -7,8 +7,8 @@ import unittest
 
 
 REPO_ROOT = Path(__file__).resolve().parents[2]
-RUNNER = REPO_ROOT / "tools" / "okf_source_manager.py"
-sys.path.insert(0, str(REPO_ROOT / "tools"))
+RUNNER = REPO_ROOT / "_tools" / "okf_source_manager.py"
+sys.path.insert(0, str(REPO_ROOT / "_tools"))
 import okf_source_manager as manager
 
 
@@ -25,7 +25,7 @@ class SourceManagerWorkflowTests(unittest.TestCase):
             "<html><body><h1>Beta</h1><p>An <strong>HTML</strong> source.</p></body></html>",
             encoding="utf-8",
         )
-        source_dir = self.project / "okf" / "sources" / "mixed"
+        source_dir = self.project / "okf" / "sources"
         source_dir.mkdir(parents=True)
         manifest = {
             "schema_version": 1,
@@ -75,7 +75,7 @@ class SourceManagerWorkflowTests(unittest.TestCase):
         self.assertTrue(portable["ok"])
         self.assertTrue(hydrated["ok"])
 
-        beta = self.project / "okf" / "raw" / "mixed" / "cache" / "documents" / "notes" / "beta.md"
+        beta = self.project / "okf" / "raw" / "cache" / "documents" / "notes" / "beta.md"
         self.assertIn("# Beta", beta.read_text(encoding="utf-8"))
         self.assertIn("**HTML**", beta.read_text(encoding="utf-8"))
 
@@ -121,7 +121,7 @@ class SourceManagerWorkflowTests(unittest.TestCase):
 
     def test_check_does_not_advance_lock(self):
         self.run_manager("refresh", "--project", self.project, "--source", "mixed")
-        lock_path = self.project / "okf" / "sources" / "mixed" / "source.lock.json"
+        lock_path = self.project / "okf" / "sources" / "source.lock.json"
         before = lock_path.read_bytes()
         (self.project / "evidence" / "alpha.md").write_text("# Alpha\n\nChanged.\n", encoding="utf-8")
         checked = self.run_manager("check", "--project", self.project, "--source", "mixed")
