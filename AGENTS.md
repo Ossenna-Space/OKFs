@@ -86,6 +86,7 @@ When the user requests a durable behavior change, record it here or in the relev
 - Treat the OKF Manager Codex Plugin as the primary interface for catalog evolution; repository-local source operations must delegate to `_tools/okf_source_manager.py`.
 - Prefix repository-management folders with `_` so they remain distinct from catalog project folders.
 - Keep each project's manifest and lock directly under `okf/sources/` and its evidence directly under `okf/raw/`; do not repeat the project name below those paths.
+- Keep the GitHub Pages workflow on maintained action releases compatible with the current GitHub-hosted runner runtime.
 
 ## OKF Manager Codex Workflow
 

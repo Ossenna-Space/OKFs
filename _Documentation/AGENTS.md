@@ -8,6 +8,7 @@
 
 - `Index.md` lists repository documentation.
 - `catalog-index.md` describes the repository landing page and its maintenance contract.
+- `pages-publishing.md` describes the GitHub Pages deployment workflow and action-version maintenance.
 - `source-management.md` describes source manifests, locks, storage, commands, and lifecycle behavior.
 
 ## Local Contracts
