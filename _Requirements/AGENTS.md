@@ -8,6 +8,7 @@
 
 - `Index.md` lists requirements documents.
 - `catalog-index.md` defines discovery and navigation outcomes for catalog projects.
+- `pages-publishing.md` defines static-site publishing outcomes.
 - `source-management.md` defines portable source acquisition, transformation, hydration, refresh, retention, and validation outcomes.
 
 ## Local Contracts
