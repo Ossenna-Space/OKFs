@@ -1,0 +1,4 @@
+- 2026-08-10T07:17:01+00:00 — Migrated 52 concepts and 16 evidence documents from C:\Users\marty\Code\RadiationTesting\okf; created source lock radiation-testing-evidence.
+- 2026-08-10T07:37:29+00:00 — Reindexed 52 concepts into Assurance Workflow, Standards & Guidelines, Test Operations (methods and facilities), and Test Plans; recalculated concept and evidence links.
+- 2026-08-10T07:43:02+00:00 — Aligned all concept frontmatter types with the new Assurance Workflow, Standards & Guidelines, Test Operations, and Test Plans schema.
+- 2026-08-10T07:46:53+00:00 — Changed concept type values to hierarchical schema paths so Test Operations children inherit Testing Facilities and its Facility Capabilities and Facility Access branches.

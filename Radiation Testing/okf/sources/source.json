@@ -1,0 +1,106 @@
+{
+  "schema_version": 1,
+  "id": "radiation-testing-evidence",
+  "storage": {
+    "originals": "reference-only",
+    "normalized": "reference-only"
+  },
+  "items": [
+    {
+      "id": "ansto-radiation-capabilities",
+      "fetch": {"adapter": "local-file", "path": "okf/raw/ansto-radiation-capabilities/datalab_ANSTO_radiation_capabilities.md"},
+      "output": "ansto-radiation-capabilities/datalab_ANSTO_radiation_capabilities.md",
+      "transform": [{"name": "markdown-copy", "version": 1}]
+    },
+    {
+      "id": "hiaf-sibl-brochure",
+      "fetch": {"adapter": "local-file", "path": "okf/raw/hiaf-sibl-brochure/datalab_HIAF-SIBL-BROCHURE.pdf.md"},
+      "output": "hiaf-sibl-brochure/datalab_HIAF-SIBL-BROCHURE.pdf.md",
+      "transform": [{"name": "markdown-copy", "version": 1}]
+    },
+    {
+      "id": "rha-guidelines-2021",
+      "fetch": {"adapter": "local-file", "path": "okf/raw/radiation_standards_uploads/20210018053 - Avionics Radiation Hardness Assurance (RHA) Guidelines.pdf.md"},
+      "output": "radiation_standards_uploads/20210018053 - Avionics Radiation Hardness Assurance (RHA) Guidelines.pdf.md",
+      "transform": [{"name": "markdown-copy", "version": 1}]
+    },
+    {
+      "id": "smc-standard",
+      "fetch": {"adapter": "local-file", "path": "okf/raw/radiation_standards_uploads/ADA619374.pdf.md"},
+      "output": "radiation_standards_uploads/ADA619374.pdf.md",
+      "transform": [{"name": "markdown-copy", "version": 1}]
+    },
+    {
+      "id": "ecss-2012",
+      "fetch": {"adapter": "local-file", "path": "okf/raw/radiation_standards_uploads/ECSS-Q-ST-60-15C_2012.pdf.md"},
+      "output": "radiation_standards_uploads/ECSS-Q-ST-60-15C_2012.pdf.md",
+      "transform": [{"name": "markdown-copy", "version": 1}]
+    },
+    {
+      "id": "ecss-2025",
+      "fetch": {"adapter": "local-file", "path": "okf/raw/radiation_standards_uploads/ECSS-Q-ST-60-15C-Rev1_2025.pdf.md"},
+      "output": "radiation_standards_uploads/ECSS-Q-ST-60-15C-Rev1_2025.pdf.md",
+      "transform": [{"name": "markdown-copy", "version": 1}]
+    },
+    {
+      "id": "jsc-67551-aires",
+      "fetch": {"adapter": "local-file", "path": "okf/raw/radiation_standards_uploads/JSC-67551_Basic_Final_WpublicReleaseCover.pdf.md"},
+      "output": "radiation_standards_uploads/JSC-67551_Basic_Final_WpublicReleaseCover.pdf.md",
+      "transform": [{"name": "markdown-copy", "version": 1}]
+    },
+    {
+      "id": "jsc-08080-2",
+      "fetch": {"adapter": "local-file", "path": "okf/raw/radiation_standards_uploads/JSC_08080_2_RevB_DCN001.pdf.md"},
+      "output": "radiation_standards_uploads/JSC_08080_2_RevB_DCN001.pdf.md",
+      "transform": [{"name": "markdown-copy", "version": 1}]
+    },
+    {
+      "id": "mil-std-883-1",
+      "fetch": {"adapter": "local-file", "path": "okf/raw/radiation_standards_uploads/MIL-STD-883-1_2024.pdf.md"},
+      "output": "radiation_standards_uploads/MIL-STD-883-1_2024.pdf.md",
+      "transform": [{"name": "markdown-copy", "version": 1}]
+    },
+    {
+      "id": "nasa-eee-inst-002",
+      "fetch": {"adapter": "local-file", "path": "okf/raw/radiation_standards_uploads/NASA_EEE-INST-002_2008.pdf.md"},
+      "output": "radiation_standards_uploads/NASA_EEE-INST-002_2008.pdf.md",
+      "transform": [{"name": "markdown-copy", "version": 1}]
+    },
+    {
+      "id": "nasa-eee-inst-002-addendum",
+      "fetch": {"adapter": "local-file", "path": "okf/raw/radiation_standards_uploads/NASA_EEE-INST-002_addendum.pdf.md"},
+      "output": "radiation_standards_uploads/NASA_EEE-INST-002_addendum.pdf.md",
+      "transform": [{"name": "markdown-copy", "version": 1}]
+    },
+    {
+      "id": "nasa-clps-2023",
+      "fetch": {"adapter": "local-file", "path": "okf/raw/radiation_standards_uploads/NASA_EEE_Parts_Selection_CLPS_2023.pdf.md"},
+      "output": "radiation_standards_uploads/NASA_EEE_Parts_Selection_CLPS_2023.pdf.md",
+      "transform": [{"name": "markdown-copy", "version": 1}]
+    },
+    {
+      "id": "nasa-nepp-compendium-2021",
+      "fetch": {"adapter": "local-file", "path": "okf/raw/radiation_standards_uploads/NASA_NEPP_GSFC_Rad_Effects_Compendium_2021.pdf.md"},
+      "output": "radiation_standards_uploads/NASA_NEPP_GSFC_Rad_Effects_Compendium_2021.pdf.md",
+      "transform": [{"name": "markdown-copy", "version": 1}]
+    },
+    {
+      "id": "nasa-nepp-tm1019-rewrite",
+      "fetch": {"adapter": "local-file", "path": "okf/raw/radiation_standards_uploads/NASA_NEPP_TM1019_Rewrite_Turflinger_2019.pdf.md"},
+      "output": "radiation_standards_uploads/NASA_NEPP_TM1019_Rewrite_Turflinger_2019.pdf.md",
+      "transform": [{"name": "markdown-copy", "version": 1}]
+    },
+    {
+      "id": "nasa-radiation-standards-2015",
+      "fetch": {"adapter": "local-file", "path": "okf/raw/radiation_standards_uploads/NASA_Standards_for_Radiation_Effects_2015.pdf.md"},
+      "output": "radiation_standards_uploads/NASA_Standards_for_Radiation_Effects_2015.pdf.md",
+      "transform": [{"name": "markdown-copy", "version": 1}]
+    },
+    {
+      "id": "ti-radiation-handbook",
+      "fetch": {"adapter": "local-file", "path": "okf/raw/radiation_standards_uploads/sgzy002a - TI Radiation Handbook for Electronics.pdf.md"},
+      "output": "radiation_standards_uploads/sgzy002a - TI Radiation Handbook for Electronics.pdf.md",
+      "transform": [{"name": "markdown-copy", "version": 1}]
+    }
+  ]
+}

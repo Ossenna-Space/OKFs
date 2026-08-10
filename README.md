@@ -30,6 +30,10 @@ The repository's `AGENTS.md` directs the plugin to resolve committed source mani
 
 Source definitions are committed while reference-only hydrated content is ignored. Hydration reconstructs the locked evidence; refresh deliberately advances an upstream revision.
 
+## Catalog projects
+
+- `Radiation Testing` — radiation-effects standards, test methods, assurance workflows, facilities, and supporting evidence migrated from the Radiation Tester project.
+
 ## Direct command-line operation
 
 The plugin runs the same repository-local helper shown below. These commands are useful for automation and troubleshooting, but the normal user interface is the OKF Manager within Codex.
